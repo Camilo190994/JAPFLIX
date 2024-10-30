@@ -1,0 +1,67 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+
+/* Estilo para cada elemento de la lista de resultados */
+.movie-item {
+    background-color: #343a40; /* Fondo igual al body */
+    color: #ffffff; /* Color de texto en blanco */
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Borde redondeado para mejor apariencia */
+}
+
+/* Estilo para el título de la película */
+.movie-title {
+    color: #ffffff;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+/* Estilo para el tagline */
+.movie-tagline {
+    color: #6c757d; /* Gris para el tagline */
+    font-style: italic;
+    margin: 5px 0;
+}
+
+/* Estilo para las estrellas de calificación */
+.movie-rating {
+    text-align: right;
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+.movie-rating .filled {
+    color: #ffc107; 
+}
+
+.movie-rating .empty {
+    color: #ffffff; 
+}
